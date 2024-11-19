@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container for the profile page */
+.View_container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Profile card container */
+.profile-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+}
+
+/* Header of the profile card */
+.profile-header {
+    margin-bottom: 30px;
+}
+
+/* Profile image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #0DB8DE;
+}
+
+/* Name styling */
+.profile-name {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Role styling */
+.profile-role {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Body of the profile card */
+.profile-body {
+    text-align: left;
+}
+
+/* Contact information section */
+.profile-info {
+    margin-bottom: 25px;
+}
+
+.profile-info h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.profile-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-info li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Biography section */
+.profile-bio {
+    margin-bottom: 25px;
+}
+
+.profile-bio h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.profile-bio p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer with buttons */
+.profile-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+/* Styling for buttons */
+.btn-edit, .btn-signout {
+    padding: 12px 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Edit button styling */
+.btn-edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Sign-out button styling */
+.btn-signout {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-signout:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}

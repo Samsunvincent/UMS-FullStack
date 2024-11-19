@@ -1,0 +1,30 @@
+.button-style{
+    background: none;
+    color: white;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit
+    }
+
+    .set-welcome{
+        height: 495px;
+       
+    }
+    /* Blur effect when off-canvas is open */
+.blur-effect {
+    backdrop-filter: blur(5px); /* Adjust the blur intensity */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3); /* Optional: Slight dark overlay */
+}
+
+/* Optional: Add a smooth transition for blur effect */
+.blur-effect {
+    transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+}
