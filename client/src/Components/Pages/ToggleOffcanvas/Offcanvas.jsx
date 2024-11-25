@@ -1,6 +1,6 @@
 import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../ToggleOffcanvas/Offcanvas.css"
+import "../ToggleOffcanvas/OffCanvas.css"
 import {  useNavigate } from "react-router-dom";
 
 export default function OffCanvas({ profile, loading, fetchProfile }) {
